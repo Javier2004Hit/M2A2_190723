@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro Torneo</title>
+</head>
+<body>
+    <form>
+<table border ="Encuesta">
+    <tr>
+        <th>Nombre:</th>
+        <th>
+        <input type="text" placeholder="Escribe tu nombre" minlength="3" maxlength="15" required>
+    </th>
+           
+
+    </tr>
+    <tr>
+        <th>Edad:</th>
+        <th>
+            <input type="number" placeholder="Inserte tu edad" min="12" max="40"required></th>
+
+    </tr>
+    <tr>
+        <th>Gmail:</th>
+        <th>
+            <input type="email" placeholder="Inserte tu gmail" name="correo" required>
+        </th>
+    </tr>
+    <tr>
+        <th>Nickname:</th>
+        <th>
+            <input type="text" placeholder="Inserte tu nickname" pattern="[a-zA-Z0-9]+">
+        </th>
+    </tr>
+    <tr>
+        <th>Categoria:</th>
+        <th>
+        <input type="radio" id="Principiante" name="categoria" value="Principiante" required>
+        <label for="Principiante">Principiante</label>
+
+        <input type="radio" id="Intermedio" name="categoria" value="Intermedio">
+        <label for="Intermedio">Intermedio</label>  
+        
+        <input type="radio" id="Experto" 
+        name="categoria" value="Experto">
+        <label for="Experto">Experto</label>
+
+
+        </th>
+    </tr>
+    <tr>
+        <th>Favoritos:</th>
+        <th>
+<input type="checkbox" id="Minecraft" name="Minecraft" />
+    <label for="Minecraft">Minecraft</label>
+
+    <input type="checkbox" id="Fortnite" name = "Fortnite"/>
+    <label for="Fortnite">Fortnite</label>
+
+    <input type="checkbox" id="Overwatch" name ="Overwatch"/>
+    <label for ="Overwatch">Overwatch</label>
+  </div>
+
+    </tr>
+    <tr>
+        <th>Fecha:</th>
+        <th><input type="date" min="2025-01-01" max="2025-12-31"></th>
+    </tr>
+
+
+<th colspan="2">
+    <input type="reset" value="Restablecer formulario"> 
+
+    <input type="submit" value ="Enviar formulario"/>
+</th>
+</table>
+</form>
+</body>
+</html>
